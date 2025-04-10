@@ -1,0 +1,18 @@
+# requirements.txt
+streamlit
+pandas
+python-dotenv
+openai
+google-generativeai
+anthropic
+mistralai
+# For Mistral - depends on how you access it.
+# If using their API directly:
+# mistralai
+# If using an OpenAI-compatible endpoint (like Together AI, Anyscale etc.):
+# No extra library needed beyond 'openai' but configure the client base_url
+
+# For Database (SQLAlchemy is more robust than sqlite3 alone for future growth)
+sqlalchemy
+# For language list
+pycountry
